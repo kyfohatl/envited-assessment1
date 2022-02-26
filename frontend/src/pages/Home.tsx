@@ -1,5 +1,7 @@
 import "./Home.css"
 
+import { Link } from "react-router-dom"
+
 import bckgTopImg from "../assets/images/homeBckgIconsTop.png"
 import bckgBttmImg from "../assets/images/homeBckgIconsBttm.png"
 import homeNavbar from "../assets/images/homeNavBar.png"
@@ -19,9 +21,13 @@ export default function Home() {
           {/* Messages */}
           <p className="home-intro-text">Facebook events without Facebook.</p>
           <p className="home-description-text">Easily host and share events with your friends across any social media.</p>
-          <img className="home-create-event-button" src={createEventButton} width={221} height={49} alt="create event button" />
+          {/* Create button */}
+          <Link to="/create">
+            <img className="home-create-event-button-image" src={createEventButton} width={221} height={49} alt="create event button" />
+          </Link>
           {/* Product images */}
           <div className="product-images">
+            {/* TODO: Come back and adjust this if time permits */}
             <img src={productImageLeft} width={96} height={171} alt="product left" />
             <img src={productImageMiddle} width={136} height={242} alt="product middle" />
             <img src={productImageRight} width={96} height={171} alt="product right" />

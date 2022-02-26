@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+.create-background {
+  background-image: url("../assets/images/homeBackground.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.create-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-navbar {
+  margin-top: 16px;
+}
+
+.create-intro-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.create-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-labels {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.upload-image-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.next-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}

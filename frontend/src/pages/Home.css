@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+.home-background {
+  background-image: url("../assets/images/homeBackground.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-content {
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-navbar {
+  margin-top: 16px;
+}
+
+.home-intro-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.home-description-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.home-create-event-button {
+  margin-top: 5%;
+}
+
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-bckg-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+}
+
+.home-bckg-img {
+  margin-top: 72px;
+}
